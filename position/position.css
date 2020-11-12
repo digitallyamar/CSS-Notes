@@ -1,0 +1,19 @@
+body {
+    width: 300px;
+}
+
+.outerbox {
+    /* position:static; The default value*/
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    border: 1px solid crimson;
+}
+
+.innerbox {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    background-color: wheat;
+}
