@@ -20,8 +20,10 @@ A quick notes on the findings of how CSS works for different properties.
 ### Absolute
 
     - Here, the HTML element is positioned relative to it's parent's position.
-    - This element will occupy the *entire area of the viewport*.
-    - So in other words, all its values are bounded for entire stretch of the view port.
+    - This element will occupy the *entire area of the viewport* if the 
+    parent element is of the default position type "static".
+    - But if tge parent position type is "relative" and this element is "aboslute", it is bound by the *entire area of the parent element*.
+    - So in other words, all its values are bounded for entire stretch of the view port by default and bound by parent for parent position=relative.
     - So it can draw on top of and go beyond the parent element itself!
 
     - Eg: position.html
