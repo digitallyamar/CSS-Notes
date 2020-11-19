@@ -48,3 +48,37 @@ A quick notes on the findings of how CSS works for different properties.
             background-color: crimson;
             border: 1px solid crimson;
         }
+
+
+## CSS property value - initial
+
+	- By setting a value to initial will cause that property to reset it's value to default initial value. 
+
+	- Now, this is different from setting the property value to auto.
+		- In fact, auto is not a valid value for many properties like border-width, padding etc.
+
+	- Declaring display:initial is the same as display:inline even if the element is of type block like <div>.
+		This is because initial value for display is always "inline".
+
+## CSS property value - inherit
+
+	- Setting a value to inherit will causes that value to lose it's current value and inherit it from it's parent.
+
+	- You can also use the inherit keyword to force inheritance of a property not normally inherited.
+		For example - in cases of border or padding.
+
+## CSS shorthand properties
+
+	- They will set values to associated properties in bulk.
+		Eg: font, border etc.
+
+	- It is important to note that when using shorthand, non explicit values will also be set to default values!
+
+	- The order of short hand can be lenient in some cases, but can be ambiguous in others.
+		- So for many properties, we use use order something like: top, right, bottom & left (Clockwise).
+		- But few properties like background-position , box-shadow , and text-shadow take only two values.
+			- In this case the values are reversed as compared to that of properties that uses 4 values.
+			- So background-position: 25% 75% specifies the horizontal right/left values first. 
+				It is then followed by the vertical top/bottom values.
+			- The reason for this is straightforward: the two values represent a Cartesian grid.
+			- Cartesian grid measurements are typically given in the order x, y (horizontal and then vertical).
