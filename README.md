@@ -82,3 +82,12 @@ A quick notes on the findings of how CSS works for different properties.
 				It is then followed by the vertical top/bottom values.
 			- The reason for this is straightforward: the two values represent a Cartesian grid.
 			- Cartesian grid measurements are typically given in the order x, y (horizontal and then vertical).
+
+## CSS measuring units em, rem, vh & vw
+
+	- em is measured with respect to it's parent's font size.
+	- rem is measured with respect to the root element's font-size.
+	- vh - 1/100th of the viewport height
+	- vw - 1/100th of the viewport width
+	- vmin - 1/100th of the smaller dimension, height or width (IE9 supports vm instead of vmin)
+	- vmax - 1/100th of the larger dimension, height or width (not supported in IE)
