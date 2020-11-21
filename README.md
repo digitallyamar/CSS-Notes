@@ -91,3 +91,9 @@ A quick notes on the findings of how CSS works for different properties.
 	- vw - 1/100th of the viewport width
 	- vmin - 1/100th of the smaller dimension, height or width (IE9 supports vm instead of vmin)
 	- vmax - 1/100th of the larger dimension, height or width (not supported in IE)
+
+
+## CSS Flexbox
+
+	- The outer most div element will be having a display property of type:
+		display: flex;
