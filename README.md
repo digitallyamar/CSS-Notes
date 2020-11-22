@@ -97,3 +97,4 @@ A quick notes on the findings of how CSS works for different properties.
 
 	- The outer most div element will be having a display property of type:
 		display: flex;
+	- In Flexbox, all it's child elements will be placed in a row, next to each other.
