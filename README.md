@@ -92,6 +92,15 @@ A quick notes on the findings of how CSS works for different properties.
 	- vmin - 1/100th of the smaller dimension, height or width (IE9 supports vm instead of vmin)
 	- vmax - 1/100th of the larger dimension, height or width (not supported in IE)
 
+## CSS remove anchor text default decoration
+
+	- If you want to remove default text decoration done to anchor element (i.e. turn link blue and underline it), 
+	then target that anchor element <a> and set:
+		text-decoration: none
+
+## CSS remove unordered list elements' default bullet styling
+	- To do this, target <ul> element and set:
+		list-style-type: none
 
 ## CSS Flexbox
 
