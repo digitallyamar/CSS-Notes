@@ -106,4 +106,29 @@ A quick notes on the findings of how CSS works for different properties.
 
 	- The outer most div element will be having a display property of type:
 		display: flex;
-	- In Flexbox, all it's child elements will be placed in a row, next to each other.
+	- In Flexbox, all it's child elements will be placed in a row called "Main Axis" next to each other.
+	- It also contains what is called a "Cross Axis" that grows vertically.
+	- Flex values are comprised of 3 items:
+		- Flex Grow
+		- Flex Shrink & 
+		- Flex Basis
+	- Both Flex Grow & Flex Shrink are based on Flex Basis, so that is the first thing to be looked at.
+		- Flex Basis:
+			- It determines the minimum amount of flex container area that is to be reserved for an element.
+			- It's value can be expressed using any parameters like px, inches, % etc that also applies to CSS "width" property.
+			- If we set flex-basis as 0, it will not have any initial width set. Instead it just grows according to the need.
+			- On the other hand, if flex-basis is set to 20%, it will cause this element to have a width of atleast 20%
+		- Flex Grow
+			- It determines if an element is allowed to grow to the remaining available container size
+			- If set to 0, it will not grow.
+			- If set to any +ve value, it grows. This +ve value will also act as a weighted value.
+			- So if two elements have flex-grow set to 2 & 1, first element grow and occupy twice the size of 
+			  the remainder container size than that occupied by the second element.
+		- Flex Shrink
+			- This is similar to Flex Grow, except it's value determines if it allows to shrink the content or let it overflow.
+			- If set to 0, it will let it overflow.
+			- Any +ve value, it will start shrinking that element. This +ve value will also act as a weighted value.
+			- So if two elements have flex-shrink set to 2 & 1, first element shrink at twice the rate of second element.
+		- By default Flex parameters take the order:
+			flex-grow, flex-shrink, flex-basis
+		  and have the default values {1, 1, 0%}
