@@ -132,3 +132,11 @@ A quick notes on the findings of how CSS works for different properties.
 		- By default Flex parameters take the order:
 			flex-grow, flex-shrink, flex-basis
 		  and have the default values {1, 1, 0%}
+	- Flex Direction can be used to set the direction of element flow. 
+			- We can use it to layout elements in row, row-reverse, column or column-reverse
+			{
+				flex-direction:row-reverse;
+			}
+	- In addition to these there are many other Flexbox properties such as align-self, order, justify-content, flex-flow etc.
+			- They can all be used to control the flow of layout in a webpage.
+			- Refer to Flexbox docs and books to learn more about these miscellaneous properties.
