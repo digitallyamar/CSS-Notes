@@ -140,3 +140,16 @@ A quick notes on the findings of how CSS works for different properties.
 	- In addition to these there are many other Flexbox properties such as align-self, order, justify-content, flex-flow etc.
 			- They can all be used to control the flow of layout in a webpage.
 			- Refer to Flexbox docs and books to learn more about these miscellaneous properties.
+
+## CSS Grid
+
+	- CSS Grid is another specification that can be used to create Grid layouts.
+	- It is not a replacement for Flexbox, but work in conjunction with it.
+	- CSS Grid is called by adding the CSS property:
+		display: grid;
+	- The number of rows and columns in a CSS grid is defined using the CSS properties:
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-gap: 0.5em
+		
+		where fr stands for "fraction".
