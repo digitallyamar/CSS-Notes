@@ -153,3 +153,5 @@ A quick notes on the findings of how CSS works for different properties.
 		grid-gap: 0.5em
 		
 		where fr stands for "fraction".
+	- Grid-column property will define the width of an element. An example of this:
+		grid-column: 1/3;   /* Spans from vertical grid line 1 to grid line 3 */
