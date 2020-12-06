@@ -142,6 +142,9 @@ A quick notes on the findings of how CSS works for different properties.
 			- Refer to Flexbox docs and books to learn more about these miscellaneous properties.
 	
 	- Flex-Flow: It is a shorthand property for Flex-Direction and Flex-Wrap properties.
+	
+	- Align-Self: This property specifies the alignment for the selected item inside a Flex container. 
+			It overrides the default align-items property.
 
 ## CSS Grid
 
