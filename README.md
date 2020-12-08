@@ -160,3 +160,7 @@ A quick notes on the findings of how CSS works for different properties.
 		where fr stands for "fraction".
 	- Grid-column property will define the width of an element. An example of this:
 		grid-column: 1/3;   /* Spans from vertical grid line 1 to grid line 3 */
+
+
+## CSS Background
+	- CSS background-clip property will define how far background image or color should stretch within an element.
