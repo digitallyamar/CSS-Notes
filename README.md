@@ -164,3 +164,4 @@ A quick notes on the findings of how CSS works for different properties.
 
 ## CSS Background
 	- CSS background-clip property will define how far background image or color should stretch within an element.
+	- CSS background-attachment property will specify if the background image is going to scroll along with the webpage or remains fixed.
