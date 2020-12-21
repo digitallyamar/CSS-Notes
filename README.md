@@ -168,3 +168,7 @@ A quick notes on the findings of how CSS works for different properties.
 
 ## CSS Borders
 	- border-image-source: This property wil specify the image to be used for borders.
+	
+## CSS Hyphens
+	- Specifies if hyphens are allowed. If yes, also specifies who does it.
+	- Valid values: none, manual, auto, initial, inherit
