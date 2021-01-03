@@ -173,3 +173,7 @@ A quick notes on the findings of how CSS works for different properties.
 ## CSS Hyphens
 	- Specifies if hyphens are allowed. If yes, also specifies who does it.
 	- Valid values: none, manual, auto, initial, inherit
+
+## Responsive Design - Viewport
+	- By adding meta viewport tag, we are telling the browser that our webpages will be rendered differently for mobile screen size.
+	- So,the browser will not try to shrink the webpage but instead, it will focus only to a part of the desktop webpage upto which it can showcase.
