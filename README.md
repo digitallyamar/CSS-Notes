@@ -177,3 +177,11 @@ A quick notes on the findings of how CSS works for different properties.
 ## Responsive Design - Viewport
 	- By adding meta viewport tag, we are telling the browser that our webpages will be rendered differently for mobile screen size.
 	- So,the browser will not try to shrink the webpage but instead, it will focus only to a part of the desktop webpage upto which it can showcase.
+
+## Align an image to the center of the div
+	- Set the margin to be auto
+	- Set image display type block
+
+## Create responsive image
+	- Set width to 100%
+	- Set height to auto
