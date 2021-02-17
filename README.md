@@ -185,3 +185,6 @@ A quick notes on the findings of how CSS works for different properties.
 ## Create responsive image
 	- Set width to 100%
 	- Set height to auto
+
+## Remove bullets from ul
+	- Set style property list-style-type=none
