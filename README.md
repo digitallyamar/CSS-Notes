@@ -188,3 +188,6 @@ A quick notes on the findings of how CSS works for different properties.
 
 ## Remove bullets from ul
 	- Set style property list-style-type=none
+
+## Make the font wider
+	- Use font-stretch property
