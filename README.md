@@ -191,3 +191,6 @@ A quick notes on the findings of how CSS works for different properties.
 
 ## Make the font wider
 	- Use font-stretch property
+
+## CSS Gap property
+	- It sets the gap (gutter) between rows and columns in a Grid layout.
