@@ -194,3 +194,7 @@ A quick notes on the findings of how CSS works for different properties.
 
 ## CSS Gap property
 	- It sets the gap (gutter) between rows and columns in a Grid layout.
+
+## CSS Transform property
+	- It applies a 2D or 3D transformation on an element.
+	- Eg: TranlsateX, TranlsateY, Rotate, Scale, Skew etc.
