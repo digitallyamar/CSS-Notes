@@ -198,3 +198,7 @@ A quick notes on the findings of how CSS works for different properties.
 ## CSS Transform property
 	- It applies a 2D or 3D transformation on an element.
 	- Eg: TranlsateX, TranlsateY, Rotate, Scale, Skew etc.
+
+## CSS Top Property
+	- Top property is used to alter the displacement of an element from it's normal y-axis.
+	- A negative top value can be used to overflow an element beyond the viewport.
