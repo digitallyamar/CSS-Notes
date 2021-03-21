@@ -202,3 +202,7 @@ A quick notes on the findings of how CSS works for different properties.
 ## CSS Top Property
 	- Top property is used to alter the displacement of an element from it's normal y-axis.
 	- A negative top value can be used to overflow an element beyond the viewport.
+
+## CSS Opacity
+	- It is used to control the opacity of an element.
+	- 0 makes the element invisible and 1 makes it visible.
