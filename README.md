@@ -210,3 +210,7 @@ A quick notes on the findings of how CSS works for different properties.
 
 ## CSS Background Repeat
 	- It will control whether to repeat the background image or not if the size of the image is smaller than the viewport.	
+
+## Justify content - space between
+	- For a list of inline items, we can arrange them in equal spaces by calling the property:
+	 	justify-content: space-between;
