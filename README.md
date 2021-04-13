@@ -214,3 +214,7 @@ A quick notes on the findings of how CSS works for different properties.
 ## Justify content - space between
 	- For a list of inline items, we can arrange them in equal spaces by calling the property:
 	 	justify-content: space-between;
+
+## CSS Cursor property
+	- The CSS cursor property can be used to change the type of cursor displayed over the specified element.
+	- Eg: cursor: move;
