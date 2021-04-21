@@ -218,3 +218,7 @@ A quick notes on the findings of how CSS works for different properties.
 ## CSS Cursor property
 	- The CSS cursor property can be used to change the type of cursor displayed over the specified element.
 	- Eg: cursor: move;
+
+## CSS Linear Gradient
+	- Creates a linear gradient image that can be used as a background image.
+	- Eg: background-image: linear-gradient(red, yellow);
