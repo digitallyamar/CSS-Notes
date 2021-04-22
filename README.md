@@ -222,3 +222,7 @@ A quick notes on the findings of how CSS works for different properties.
 ## CSS Linear Gradient
 	- Creates a linear gradient image that can be used as a background image.
 	- Eg: background-image: linear-gradient(red, yellow);
+## CSS Radial Gradient
+	- Creates a radial gradient that can be set as background image
+	- The colors set as options moves from inside out in order.	
+	- Eg: background-image: radial-gradient(red, yellow, green);
