@@ -226,3 +226,6 @@ A quick notes on the findings of how CSS works for different properties.
 	- Creates a radial gradient that can be set as background image
 	- The colors set as options moves from inside out in order.	
 	- Eg: background-image: radial-gradient(red, yellow, green);
+
+## CSS Add Shadow To Text
+	- Eg: text-shadow: 2px 2px;
