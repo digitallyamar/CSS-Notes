@@ -229,3 +229,5 @@ A quick notes on the findings of how CSS works for different properties.
 
 ## CSS Add Shadow To Text
 	- Eg: text-shadow: 2px 2px;
+## CSS Add Box Shadow
+	- Eg: box-shadow: 10px 10px;
